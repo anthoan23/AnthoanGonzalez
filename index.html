@@ -1,0 +1,176 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="d-flex">   
+        <!-- Sidebar -->
+
+       <label class="form-check-label es" for="langSwitch"><img class="img-globo" src="assets/globo.png"><span id="LangLabel2">Español / Inglés</span></label>
+
+        <nav id="sidebar" class="p-3 sidebar-red">
+            <h4 class="mb-4" id="sidebar-title" style=" text-align: center;">Menú</h4>
+            <ul class="nav flex-column mb-4">
+                <li class="nav-item"><a class="nav-link" href="#about" id="nav-about">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education" id="nav-education">Educación</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills" id="nav-skills">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio" id="nav-portfolio">Portafolio</a></li>
+            </ul>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="langSwitch">
+                <label class="form-check-label" for="langSwitch" id="langLabel">Inglés</label>
+            </div>
+        </nav>
+        <!-- Main Content -->
+        <div class="flex-grow-1 p-4">
+            <header>
+                <h1 id="main-title">Bienvenido a mi Portafolio</h1>
+                <hr style="border: 1px solid #59984f; margin: 20px 0;">
+                
+            </header>
+            <main>
+                <section id="about">
+                    <div class="d-flex align-items-center gap-1 flex-wrap container-about">
+                        <img class="img-fluid img-profile" src="assets/anthoan.png">
+                        <div>
+                            <h2 id="about-title">Técnico Superior Universitario en Informática</h2>
+                            <h3 id="name-title2">Anthoan Jose Gonzalez Colinas</h3>
+                                <a class="ubicacion" href="https://www.google.com/maps/@10.0980895,-69.3176098,12z?hl=es&entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration:none;">
+                                    <img class="icono" src="assets/ubicacion.png" style="margin-top: -7px;">
+                                    Venezuela, Estado Lara, Barquisimeto
+                                </a>
+                            <div class="social-networks">
+                                <a href="https://mail.google.com" target="_blank"><img class="icono" src="assets/sobre.png" style=" margin-top: -7px; margin-right: 5px;">telefonodeanthoan@gmail.com</a>
+                                <a href="assets/Anthoan_Gonzalez.CV.pdf" target="_blank">
+                                    <img class="icono" src="assets/documento.png">
+                                </a>
+                                <a href="https://www.instagram.com/gonzalezanthoan/" target="_blank"><img class="icono" src="assets/instagram.png"></a>
+                                <a href="https://www.linkedin.com/in/anthoangonzalez-gonzalez-234079358/" target="_blank"><img class="icono" src="assets/linkedin.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <hr style="border: 1px solid #59984f; margin: 20px 0;">
+                <section id="about-me" class="centrar-secion">
+                    <h2 id="about-me-title" class="suptitulos">Sobre mí</h2>
+                    <p id="about-me-text" class="about-text-width parrafo" >Esta es la sección sobre mí.</p>
+                    <div class="titulos">
+                        <div id="titulo1">graduado de TSU en el 2025</div>
+                        <div id="titulo2">en curso de ingeniería en informática para el 2027</div>
+                    </div>
+                </section>
+                <section id="education" class="centrar-secion">
+                    <h2 id="education-title"  class="suptitulos">Educación</h2>
+                    <p id="education-text" class="about-text-width parrafo" >Soy Técnico Superior Universitario en Informática graduado de la Universidad Politécnica Territorial Andrés Eloy Blanco (UPTAEB) y actualmente me encuentro cursando la ingeniería en la misma casa de estudios, complementando y profundizando mi formación académica. A lo largo de mi trayecto educativo, he consolidado conocimientos sólidos en el stack de desarrollo web, manejando tecnologías como PHP y JavaScript para la lógica, HTML y CSS para la estructura y el diseño, así como SQL para la gestión y consulta de bases de datos.</p>
+                </section>
+                <section class="centrar-secion">
+                    <h4 id="technologies-title" class="suptitulos">Tecnologías</h4>
+                    <div class="cards">
+                        <div class="carta">
+                            <h5 id="technologies-title-1" class="supti">Tecnologías aprendidas</h5>
+                            <div class="tec">           
+                                <img class="icono-tec" src="assets/html-5.png" title="HTML">
+                                <img class="icono-tec" src="assets/css-3.png" title="CSS">
+                                <img class="icono-tec" src="assets/php.png" title="PHP">
+                                <img class="icono-tec" src="assets/js.png" title="JavaScript">
+                                <img class="icono-tec" src="assets/icons8-sql-48.png" title="SQL">
+                                <img class="icono-tec" src="assets/icons8-logotipo-de-c-plus-plus-96.png" title="C++">
+                            </div>
+                        </div>
+                        <div class="carta">
+                            <h5 id="technologies-title-2" class="supti">En aprendizaje</h5>
+                           <div class="tec">           
+                                <img class="icono-tec" src="assets/icons8-python-96.png" title="Python">
+                                <img class="icono-tec" src="assets/icons8-reaccionar-80.png" title="React">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="skills" class="centrar-secion">
+                    <h2 id="skills-title"  class="suptitulos">Habilidades</h2>
+                    <p id="skills-text" class="about-text-width parrafo" >Soy un profesional con sólidas habilidades de liderazgo, capaz de guiar equipos y tomar decisiones estratégicas, complementadas por un fuerte compromiso y responsabilidad en todos los proyectos que emprendo. Mi experiencia en metodologías de investigación rápida me permite analizar información eficientemente y tomar decisiones fundamentadas, apoyadas por excelentes capacidades de comunicación que facilitan la colaboración y el entendimiento mutuo. Mantengo una actitud de constante aprendizaje y mejora, siempre motivado por adquirir nuevos conocimientos y enfrentar desafíos con determinación y entusiasmo.</p>
+                    
+                    
+                </section>
+
+                <section id="portfolio" class="centrar-secion">
+                    <h2 id="portfolio-title"  class="suptitulos">Proyectos</h2>
+                    <div class="proyecto">
+                        <div class="fon-img fon-1">
+                            <div id="slideshow-container">
+                                <img src="assets/sgm.jpeg" alt="Proyecto 1" class="img-proyecto">
+                            </div>
+                            
+                        </div>
+                        <div class="proyecto-info">
+                            <h4 class="name-proyecto suptitulos">Sistema de Gestión de Medica (SGM)</h4>
+                            <p class="description-proyecto parrafo" id="portfolio-text1">Sistema web integral que centraliza la gestión médica, incluyendo historiales clínicos, consultas, emergencias, farmacia, y administración de staff médico en una plataforma segura e intuitiva.</p>
+                            <div class="technologies-used">
+                                <img src="assets/html-5.png" alt="HTML" class="tec-used">
+                                <img src="assets/css-3.png" alt="CSS" class="tec-used">
+                                <img src="assets/php.png" alt="PHP" class="tec-used">
+                                <img src="assets/js.png" alt="JavaScript" class="tec-used">
+                                <img src="assets/icons8-sql-48.png" alt="SQL" class="tec-used">
+                            </div>
+                            <div class="credenciales">
+                                <div class="user cod">
+                                    <div class=" cs cc">Usuario: </div> <div class=" cs">32014004</div>
+                                </div>
+                                <div class="user cod">
+                                    <div class=" cs cc">Clave: </div> <div class=" cs">Dino1234</div>
+                                </div>
+                            </div>
+                            <a href="https://sgm.wuaze.com/?i=1" class="btn-a" target="_blank">Ir al proyecto<img src="assets/exterior.png" class="icon-exterior"></a>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="proyecto">
+                        <div class="fon-img fon-2">
+                            <div id="slideshow-siga">
+                                <img src="assets/siga.jpeg" alt="Proyecto 1" class="img-proyecto">
+                            </div>
+                        </div>
+                        <div class="proyecto-info">
+                            <h4 class="name-proyecto p1 suptitulos" >Sistema integral de Gestión de arbitral (SIGA)</h4>
+                            <p class="description-proyecto parrafo" id="portfolio-text2">Sistema web integral que centraliza la gestión arbitral, incluyendo fichas técnicas de árbitros, resultados de tests físicos, control de licencias y gestión de usuarios con perfiles diferenciados en una plataforma segura.</p>
+                            <div class="technologies-used">
+                                <img src="assets/html-5.png" alt="HTML" class="tec-used">
+                                <img src="assets/css-3.png" alt="CSS" class="tec-used">
+                                <img src="assets/php.png" alt="PHP" class="tec-used">
+                                <img src="assets/js.png" alt="JavaScript" class="tec-used">
+                                <img src="assets/icons8-sql-48.png" alt="SQL" class="tec-used">
+                            </div>
+                            <div class="credenciales">
+                                <div class="user cod">
+                                    <div class=" cs cc">Usuario: </div> <div class=" cs">12345678</div>
+                                </div>
+                                <div class="user cod">
+                                    <div class=" cs cc">Clave: </div> <div class=" cs">Admin1234</div>
+                                </div>
+                            </div>
+                            <a href="https://siga.great-site.net/?i=1" class="btn-a" target="_blank">Ir al proyecto<img src="assets/exterior.png" class="icon-exterior" aria-hidden="true"></a>
+                        </div>
+
+                        
+                    </div>
+
+                </section>
+
+
+
+
+
+            </main>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+   
+</body>
+</html>
